@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/audio-player/static/css/main.449e4abd.chunk.css",
+    "main.js": "/audio-player/static/js/main.51dfa2ad.chunk.js",
+    "main.js.map": "/audio-player/static/js/main.51dfa2ad.chunk.js.map",
+    "runtime-main.js": "/audio-player/static/js/runtime-main.95ce10a7.js",
+    "runtime-main.js.map": "/audio-player/static/js/runtime-main.95ce10a7.js.map",
+    "static/js/2.728fb636.chunk.js": "/audio-player/static/js/2.728fb636.chunk.js",
+    "static/js/2.728fb636.chunk.js.map": "/audio-player/static/js/2.728fb636.chunk.js.map",
+    "index.html": "/audio-player/index.html",
+    "static/css/main.449e4abd.chunk.css.map": "/audio-player/static/css/main.449e4abd.chunk.css.map",
+    "static/js/2.728fb636.chunk.js.LICENSE.txt": "/audio-player/static/js/2.728fb636.chunk.js.LICENSE.txt",
+    "static/media/Little Do You Know 1.png": "/audio-player/static/media/Little Do You Know 1.c3c65b98.png",
+    "static/media/Little Do You Know.620329d4.mp3": "/audio-player/static/media/Little Do You Know.620329d4.mp3",
+    "static/media/Perfect Two 1.jpg": "/audio-player/static/media/Perfect Two 1.9d286ccc.jpg",
+    "static/media/Perfect Two.dbf4257a.mp3": "/audio-player/static/media/Perfect Two.dbf4257a.mp3",
+    "static/media/Perfect.d2a0cf88.mp3": "/audio-player/static/media/Perfect.d2a0cf88.mp3",
+    "static/media/Perfect.jpg": "/audio-player/static/media/Perfect.fd8701d3.jpg",
+    "static/media/App.scss": "/audio-player/static/media/background.bf695272.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95ce10a7.js",
+    "static/js/2.728fb636.chunk.js",
+    "static/css/main.449e4abd.chunk.css",
+    "static/js/main.51dfa2ad.chunk.js"
+  ]
+}
