@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/Header'
+import AudioPlayer from './components/AudioPlayer'
+
+import './App.scss';
+import tracks from './tracks'
+import { useState} from 'react';
+
+const App = () => {
+	const [index, setIndex] = useState(0);
+	const [isPlay, setIsPlay] = useState(false);
+
+	const onChangeTrack = (newIndex) =>{
+		setIndex(newIndex);
+	}
+
+	const onChangePlay = (newIsPlay) => {
+		setIsPlay(newIsPlay);
+	}
+
+	return (
+		<div className="app">
+			<Header tracks={tracks} index = {index} onChangeTrack={onChangeTrack} isPlay={isPlay}></Header>
+			<AudioPlayer tracks={tracks} index = {index} onChangePlay={onChangePlay}></AudioPlayer>
+		</div>
+	)
 }
 
-export default App;
+export default App
+
